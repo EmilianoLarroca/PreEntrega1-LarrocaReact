@@ -1,0 +1,8 @@
+.titulo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: yellowgreen;
+    font-size: 24px;
+
+}
