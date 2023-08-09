@@ -1,9 +1,9 @@
 import React from "react";
 import './titulo.css';
 
-export const Titulo = () => {
+export const Titulo = (props) => {
     return (
-    <h1>Holaa</h1>
+    <h1 className="titulo1">{props.greeting}</h1>
     )
 }
 

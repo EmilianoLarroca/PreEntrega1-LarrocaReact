@@ -1,9 +1,9 @@
 import React from "react";
-import './itemListContainer.css';
+import './productos.css';
 
 
 
-export const ItemListContainer = () => {
+export const Productos = () => {
     return (
         <div className="productos">
         <p>◾ Producto 1</p>
@@ -13,6 +13,6 @@ export const ItemListContainer = () => {
     )
 }
         
-export default ItemListContainer
+export default Productos
 
 
