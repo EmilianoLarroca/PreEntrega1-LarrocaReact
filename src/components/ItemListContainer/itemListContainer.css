@@ -1,8 +1,7 @@
-.productos{
+.titulo1 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    color: brown;
-    gap: 30px;
+    color: rgb(255, 255, 255);
 }
