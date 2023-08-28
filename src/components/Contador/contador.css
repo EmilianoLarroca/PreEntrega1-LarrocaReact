@@ -1,0 +1,12 @@
+.contador {
+    display: flex;
+    padding: px;
+
+}
+
+.button {
+    font-size: 15px;
+    background-color: rgb(250, 246, 5);
+    margin: 10px;
+    border-radius: 20px;
+}

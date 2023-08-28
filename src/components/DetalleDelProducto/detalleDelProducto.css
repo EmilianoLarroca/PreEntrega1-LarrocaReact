@@ -1,0 +1,9 @@
+.hola {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 420px;
+        font-family: sans-serif;
+        background-color: rgb(55, 194, 101);
+        margin-top: 5px;
+}

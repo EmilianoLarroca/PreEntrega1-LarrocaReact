@@ -1,0 +1,36 @@
+{
+    "libros": [
+        {
+            "id": 1,
+            "nombre": "It",
+            "categoria": "Terror",
+            "unidades": 10,
+            "precio": 3000,
+            "rutaImagen": "ponerRuta"
+        },
+        {
+            "id": 2,
+            "nombre": "Gabriel Rolon",
+            "categoria": "Psicologia",
+            "unidades": 15,
+            "precio": 4500,
+            "rutaImagen": "ponerRuta"
+        },
+        {
+            "id": 3,
+            "nombre": "Juego de Tronos",
+            "categoria": "Acción",
+            "unidades": 20,
+            "precio": 2600,
+            "rutaImagen": "ponerRuta"
+        },
+        {
+            "id": 4,
+            "nombre": "Soy Leyenda",
+            "categoria": "Acción",
+            "unidades": 17,
+            "precio": 1200,
+            "rutaImagen": "ponerRuta"
+        }
+    ]
+}
