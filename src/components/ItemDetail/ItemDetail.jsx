@@ -1,8 +1,7 @@
-import './catalogo.css';
+import './itemDetail.css';
 
 
-
-const Catalogo = () => {
+const ItemDetail = () => {
     return (
         <div className="card">
             <h1>Nombre:</h1>
@@ -12,4 +11,4 @@ const Catalogo = () => {
     )
 }
 
-export default Catalogo
+export default ItemDetail

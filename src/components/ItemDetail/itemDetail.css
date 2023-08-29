@@ -1,7 +1,6 @@
 .card {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     width: 420px;
     border: 1px solid lightgray;
     box-shadow: 2px 2px 8px 4px #d3d3d3d1;

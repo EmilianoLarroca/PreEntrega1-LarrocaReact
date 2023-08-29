@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from "react";
-import './contador.css';
+import './itemCount.css';
 
 
-    const Contador = () => {
+    const ItemCount = () => {
         const [numero, setNumero] = useState(0)
         const sumar = () => {
             setNumero(numero + 1)
@@ -23,4 +23,4 @@ import './contador.css';
   )
 }
 
-export default Contador
+export default ItemCount
