@@ -1,12 +1,20 @@
 import './itemDetail.css';
+import ItemCount from '../ItemCount/ItemCount';
 
 
-const ItemDetail = () => {
+const ItemDetail = ({producto}) => {
+    
+    const onAdd = (cantidad) => {
+        console.log(`Compraste ${cantidad} de productos`)
+    }
+
     return (
-        <div className="card">
-            <h1>Nombre:</h1>
-            <p>Descripción:</p>
-            <p>Precio:</p>
+        <div className='card'>
+            <h2>Detalle del libro: {producto.nombre}</h2>
+            <img src={producto.rutaImagen} alt="" />
+            <p>{producto.descripcion}</p>
+            <p>${producto.precio}</p>
+            <ItemCount stock={producto.stock} onAdd={onAdd} />
         </div>
     )
 }
