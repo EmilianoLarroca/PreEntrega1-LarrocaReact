@@ -8,8 +8,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
+    <Navbar />
     <div className='body'>
-      <Navbar />
       <Routes>
         <Route path='/' element={<ItemListContainer greeting={'Bienvenidos a la "Cueva del Lector"'}/>} />
         <Route path='/categoria/:categoriaId' element={<ItemListContainer greeting={'Categoria: 📚'}/>} />
