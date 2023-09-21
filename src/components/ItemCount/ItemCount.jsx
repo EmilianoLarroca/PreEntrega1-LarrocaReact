@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import './itemCount.css';
-import { Button } from 'react-bootstrap'
+import { Button } from 'react-bootstrap';
 
 
 const ItemCount = ({stock, onAdd}) => {
-    const [numero, setNumero] = useState(0)
+    const [numero, setNumero] = useState(1)
     const sumar = () => {
         if (numero < stock) {
             setNumero(numero + 1)
@@ -15,7 +15,7 @@ const ItemCount = ({stock, onAdd}) => {
         setNumero(numero - 1)
     }
 }
-    
+
     return (
     <div className='contador'>
         <div>

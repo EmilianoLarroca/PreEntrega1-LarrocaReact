@@ -1,6 +1,6 @@
 import React from 'react';
-import { CartWidget } from '../CartWidget/CartWidget'
-import logo from './../../logo.png'
+import { CartWidget } from '../CartWidget/CartWidget';
+import logo from './../../logo.png';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -12,7 +12,7 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" >
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark" className="bg-body-tertiary" >
       <Container fluid>
         <Navbar.Brand as={NavLink} to='/'><img src={logo} width="100px"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,6 +24,7 @@ function NavBar() {
           >
             <Nav.Link as={NavLink} to='/'>Inicio</Nav.Link>
             <Nav.Link href="#action2">Información</Nav.Link>
+            <Nav.Link as={NavLink} to='/contacto'>Contacto</Nav.Link>
             <NavDropdown title="Categorias" id="navbarScrollingDropdown">
               <NavDropdown.Item as={NavLink} to='/categoria/Terror'>Terror</NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to='/categoria/Psicologia'>Psicologia</NavDropdown.Item>
@@ -31,7 +32,6 @@ function NavBar() {
             <NavDropdown.Divider />
               <NavDropdown.Item as={NavLink} to='/'>Todos los Productos</NavDropdown.Item>
             </NavDropdown>
-
           </Nav>
           <a href="">
           <CartWidget />
@@ -45,7 +45,6 @@ function NavBar() {
             />
             <Button variant="outline-success">Buscar</Button>
           </Form>
-          
         </Navbar.Collapse>
       </Container>
     </Navbar>
