@@ -1,3 +1,29 @@
+# PROYECTO "LA CUEVA DEL LECTOR"
+
+Descripción
+LA CUEVA DEL LECTOR es un proyecto e-commerce realizado en ReactJS de venta de libros.
+
+El proyecto cuenta con 3 categorias de libros, carrito y formulario de confirmacion de compra.
+
+La información es almacenada en firebase (tanto los libros, como las ordenes de compra.)
+
+# Librerias utilizadas
+
+React-SweetAlert
+
+Genera las alertas al final de haber realizado la compra, proporcionandote el ID de la compra.
+
+# Conceptos Basicos
+
+El metodo para poder empezar a trabajar en este proyecto es de la siguiente manera:
+1-Ingresas a la carpeta donde se encuentra el proyecto, en la barra de navegación de la carpeta debemos escribir "cmd" para abrir la consola de su computadora
+2-Luego, tanto para abrir el VSC de forma que podamos iniciar el proyecto, debemos posicionarnos correctamente en la carpeta contenedora
+3-Colocamos el comando "cd" seguido dejamos un espacio e ingresamos el nombre del proyecto. En este ejemplo seria: "cd my-primer-ecommerce"
+4-Una vez posicionados en el proyecto, debemos abrir el VSC con el comando "code ."
+5- Y por ultimo, la forma de iniciar el proyecto o "levantarlo" como a veces se suele decir, es con el comando "npm start".
+
+Al final pueden encontrar cierta información muy importante que proporcionan de base React Js, de forma orientativa pero en otro idioma.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
