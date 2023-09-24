@@ -2,18 +2,24 @@ import React, { useEffect , useState} from 'react'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom';
 import './itemDetailContainer.css';
-import { getItem } from '../../mock/data';
+import { doc, getDoc } from "firebase/firestore"
+import { db } from '../../firebase/Firebase';
 
- function ItemDetailContainer() {
+
+ const ItemDetailContainer = () => {
   
-  const [producto, setProducto] = useState({})
-  const { id } = useParams()
+  const [producto, setProducto] = useState("products")
+  const id  = useParams().id
 
   useEffect(()=> {
-      getItem(id)
-      .then((res)=> setProducto(res))
-      .catch((error)=> (error))
-  },[])
+      
+      const docRef = doc(db, "products", id);
+      getDoc(docRef)
+        .then((resp) => {
+          setProducto (
+            { ...resp.data(), id: resp.id})
+        })
+  },[id])
 
   return (
     <div className='itemListContainerCss'>

@@ -24,7 +24,6 @@ function NavBar() {
           >
             <Nav.Link as={NavLink} to='/'>Inicio</Nav.Link>
             <Nav.Link href="#action2">Información</Nav.Link>
-            <Nav.Link as={NavLink} to='/contacto'>Contacto</Nav.Link>
             <NavDropdown title="Categorias" id="navbarScrollingDropdown">
               <NavDropdown.Item as={NavLink} to='/categoria/Terror'>Terror</NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to='/categoria/Psicologia'>Psicologia</NavDropdown.Item>
@@ -35,6 +34,7 @@ function NavBar() {
           </Nav>
           <a href="">
           <CartWidget />
+          <Nav.Link className="menu-link" to="/carrito"></Nav.Link>
           </a>
           <Form className="d-flex">
             <Form.Control

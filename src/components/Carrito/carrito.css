@@ -1,0 +1,42 @@
+.body {
+    height: 100%;
+}
+
+.cartVacio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: rgb(240, 248, 255);
+    background-color: rgba(255, 228, 196, 0.164);
+}
+
+.colorDeFondo {
+    background-color: rgba(255, 72, 0, 0.575);
+}
+
+.botonCart {
+    color: white;
+    background-color: rgb(202, 81, 0);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.tituloCarrito {
+    color: rgb(255, 255, 255);
+}
+
+.headerCarrito {
+    background-color: rgba(255, 72, 0, 0.575);
+    border-bottom: 2px solid black;
+}
+
+.footerCarrito {
+    background-color: rgba(255, 72, 0, 0.575);
+    border-top: 2px solid black;
+}
+
+.contenedorTotal {
+    color: black;
+    border: 2px solid black ;
+}
