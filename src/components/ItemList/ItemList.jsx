@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Item from '../Item/Item';
 import './itemList.css';
 import { db } from '../../firebase/Firebase';
-import { getDocs, collection, query, where, limit, getDoc, doc } from 'firebase/firestore';
+import { getDoc, doc } from 'firebase/firestore';
 
 function ItemList({productos}) {
 

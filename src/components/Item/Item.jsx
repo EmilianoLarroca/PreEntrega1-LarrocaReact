@@ -1,8 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { db } from '../../firebase/Firebase';
-import { getDocs, collection, query, where, limit, getDoc, doc } from 'firebase/firestore';
 
  function Item({prod}) {
 
